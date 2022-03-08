@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="beginner_tutorials" name="add_two_ints_server"  type="add_two_ints_server" />
+  <test pkg="beginner_tutorials" test-name="add_two_ints_service_client" type="add_two_ints_service_client" />
+</launch>
+
